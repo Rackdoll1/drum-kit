@@ -1,0 +1,46 @@
+:root {
+  --background: #3b3e55;
+  --shadow: #646573;
+  --button: #A2EAE2;
+  --text: #f0fffd;
+  --accent: #d93d75;
+}
+
+body {
+  background-color: var(--background);
+  text-align: center;
+}
+
+h1 {
+  color: var(--text);
+  font-family: "Arvo", cursive;
+  font-size: 5rem;
+  text-shadow: 3px 0 var(--accent);
+}
+
+.set {
+  margin: 150px 0;
+}
+
+.drum {
+  border: 10px solid var(--shadow);
+  border-radius: 15px;
+  /* background-color: white; */
+  color: var(--accent);
+  font-family: "Arvo", cursive;
+  font-size: 5rem;
+  line-height: 1.9;
+  text-shadow: 3px 0 var(--button);
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+footer{
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  color: var(--text);
+  font-family: sans-serif;
+}
