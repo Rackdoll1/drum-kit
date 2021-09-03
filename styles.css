@@ -36,6 +36,38 @@ h1 {
   width: 150px;
 }
 
+.w {
+  background-image: url("images/snare.png");
+}
+
+.a {
+  background-image: url("images/tom1.png");
+}
+
+.s {
+  background-image: url("images/tom2.png");
+}
+
+.d {
+  background-image: url("images/tom3.png");
+}
+
+.j {
+  background-image: url("images/tom4.png");
+}
+
+.k {
+  background-image: url("images/hihat.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.i {
+  background-image: url("images/crash.png");
+}
+
 footer{
   position: absolute;
   left: 50%;
@@ -43,4 +75,13 @@ footer{
   transform: translateX(-50%);
   color: var(--text);
   font-family: sans-serif;
+}
+
+footer p {
+  margin: 0;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 var(--button);
+  opacity: 0.5;
 }
